@@ -55,3 +55,13 @@ def search_oid(term):
 def download_pdf(mibid):
     print(mibid)
     return send_from_directory(Path("mockups"), "example.pdf")
+
+
+@app.route('/vendor', methods=['GET'])
+def vendor():
+    return jsonify({
+        "34578": "hpe",
+        "632": "aruba",
+        "54345": "cisco",
+        "65346546": "ibm",
+    })
