@@ -189,7 +189,7 @@ def start():
             keepTextsLayout = True
 
     if not mibSources:
-        mibSources = ['https://pysnmp.github.io:443/mibs/asn1/@mib@']
+        mibSources = ['https://bestmonitoringtools.com/mibdb/mibs/@mib@.mib']
 
     if inputMibs:
         mibSources = sorted(

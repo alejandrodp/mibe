@@ -1,0 +1,55 @@
+[
+   {
+      "oid": "1.2.3.4.5.6",
+      "name": "OpenPortHPE",
+      "maxaccess": "read-only",
+      "status": "current",
+      "description": "Current RPM read for the fan.",
+      "nodetype":"scalar",
+      "type": "Integer32",
+      "vendor": "ARUBA",
+      "mib_module": "ARUBA-FAN"
+   },
+   {
+      "oid": "1.3.6.1.4.1.47196.4.1.1.3.11.5.1.1.6",
+      "name": "arubaWiredFanProductName",
+      "maxaccess": "noaccess",
+      "status": "current",
+      "type": "Integer32",
+      "nodetype":"scalar",
+      "description": "Fan product name identification.",
+      "vendor": "ARUBA",
+      "mib_module": "ARUBA-FAN"
+   },
+   {
+      "oid": "1.2.3.4.5.6",
+      "name": "OpenPortHPE",
+      "maxaccess": "read-only",
+      "status": "current",
+      "type": "Integer32",
+      "nodetype":"table",
+      "description": "Current RPM read for the fan.",
+      "vendor": "ARUBA",
+      "mib_module": "ARUBA-FAN",
+      "columns": [
+         {
+            "oid": "1.2.3.4.5.6",
+            "name": "OpenPortHPE",
+            "maxaccess": "read-only",
+            "status": "current",
+            "type": "Integer32",
+            "nodetype":"scalar",
+            "description": "Current RPM read for the fan."
+         },
+         {
+            "oid": "1.2.3.4.5.6",
+            "name": "OpenPortHPE",
+            "maxaccess": "read-only",
+            "status": "current",
+            "type": "Integer32",
+            "nodetype":"scalar",
+            "description": "Current RPM read for the fan."
+         }
+      ]
+   }
+]
