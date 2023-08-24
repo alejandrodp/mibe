@@ -1,43 +1,1054 @@
 {
-   "tree":{
-      "vendor":"HPE",
-      "children":[
-         {
-            "oids":0,
-            "filename":"ARCHIVO1",
-            "modulename":"MODULO1",
-            "children":[
-               {
-                  "filename":"ARCHIVO2",
-                  "modulename":"MODULO2",
-                  "id":"54389",
-                  "oids":24,
-                  "children":null
-               },
-               {
-                  "filename":"ARCHIVO3",
-                  "modulename":"MODULO3",
-                  "id":"54378",
-                  "oids":12,
-                  "children":null
-               }
+  "tree": {
+    "vendor": "hpe",
+    "name": "hpe",
+    "oid": "1.3.6.1.4.1.47196",
+    "class": "objectidentity",
+    "description": "",
+    "children": [
+      {
+        "name": "hpeNetworking",
+        "oid": "1.3.6.1.4.1.47196.4",
+        "class": "moduleidentity",
+        "description": "This MIB module defines HPE Networking product hardware MIBs and proprietary MIBs. ",
+        "children": [
+          {
+            "name": "reservedhpeNetworking",
+            "oid": "1.3.6.1.4.1.47196.4.0",
+            "class": "objectidentity",
+            "description": "",
+            "children": []
+          },
+          {
+            "name": "wiredNetworkingDevices",
+            "oid": "1.3.6.1.4.1.47196.4.1",
+            "class": "objectidentity",
+            "description": "",
+            "children": [
+              {
+                "name": "arubaOS_CX",
+                "oid": "1.3.6.1.4.1.47196.4.1.1",
+                "class": "objectidentity",
+                "description": "",
+                "children": [
+                  {
+                    "name": "wndDeviceIds",
+                    "oid": "1.3.6.1.4.1.47196.4.1.1.1",
+                    "class": "objectidentity",
+                    "description": "",
+                    "children": [
+                      {
+                        "name": "arubaWiredSwitchJL375A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.1",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL375A Aruba 8400 8-slot chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL479A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.2",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL479A Aruba 8320 48p 10G SFP/SFP+ and 6p 40G QSFP+ chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL579A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.3",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL579A Aruba 8320 32p QSFP+ chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL581A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.5",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL581A Aruba 8320 48p 1G/10GBASE-T and 6p 40G QSFP+ chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL635A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.50",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL635A Aruba 8325 8325-48Y8C chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL636A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.70",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the JL636A Aruba 8325 8325-32C chassis switch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL658A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.100",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 24SFP+/4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL659A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.101",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 48SR PoE CLS6 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL660A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.102",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 24SR PoECLS 6 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL661A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.103",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 48G PoE CLS 4 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL662A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.104",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 24G PoE CLS 4 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL663A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.105",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 248G /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL664A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.106",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 24G /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL665A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.107",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300F 48G PoE CLS 4 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL666A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.108",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300F 48G PoE CLS 4 /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL667A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.109",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300F 48G /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL668A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.110",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300F 24G /4SFP56 Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL762A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.111",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6300M 48G /4SFP56 Pwr2Prt Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchR0X24A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.150",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6405 Chassis.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchR0X25A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.151",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6410 Chassis.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL724A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.300",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6200F 24G 4SFP+ Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL725A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.301",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6200F 24G CL4 4SFP+370W Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL726A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.302",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6200F 48G 4SFP+ Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL727A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.303",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6200F 48G CL4 4SFP+370W Swch.",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredSwitchJL728A",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.1.304",
+                        "class": "objectidentity",
+                        "description": "The authoritative identifier for the Aruba 6200F 48G CL4 4SFP+740W Swch.",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wndComponentIds",
+                    "oid": "1.3.6.1.4.1.47196.4.1.1.2",
+                    "class": "objectidentity",
+                    "description": "",
+                    "children": [
+                      {
+                        "name": "wndSensors",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.2.1",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": [
+                          {
+                            "name": "arubaWiredTemperatureSensor",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.1.1",
+                            "class": "objectidentity",
+                            "description": "Identifier for a temperature sensor type.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredRPMSensor",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.1.2",
+                            "class": "objectidentity",
+                            "description": "Identifier for a fan RPM sensor type.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredPowerSensor",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.1.3",
+                            "class": "objectidentity",
+                            "description": "Identifier for a PSU power sensor type.",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "wndSlots",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.2.2",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": [
+                          {
+                            "name": "arubaWiredSwitch8400FanTraySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.1",
+                            "class": "objectidentity",
+                            "description": "Represents slot for Aruba X731 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8400PowerSupplySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.2",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a power supply bay in an Aruba 8400 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8400ManagementModuleSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.3",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a Management Module bay in a Aruba 8400 switch. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8400LineCardSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.4",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a line card module slot in an Aruba 8400 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8400FabricCardSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.5",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a fabric module slot in an Aruba 8400 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8400RearDisplayCardSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.6",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a fabric module slot in an Aruba 8400 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8320FanTraySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.7",
+                            "class": "objectidentity",
+                            "description": "Represents slot for Aruba F2B Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8320PowerSupplySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.8",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a power supply bay in an Aruba 8320 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8325FanTraySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.9",
+                            "class": "objectidentity",
+                            "description": "Represents slot for Aruba Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch8325PowerSupplySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.10",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a power supply bay in an Aruba 8325 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6300FanTraySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.11",
+                            "class": "objectidentity",
+                            "description": "Represents slot for Aruba 6300M Switch Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6300PowerSupplySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.12",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a power supply bay in an Aruba 6300M switch. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6400ManagementModuleSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.13",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a Management Module slot in a Aruba 6400 switch. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6400LineCardSlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.14",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a line card module slot in an Aruba 6400 switch chassis. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6400FanTraySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.15",
+                            "class": "objectidentity",
+                            "description": "Represents slot for Aruba 6400 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch6400PowerSupplySlot",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.2.16",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a power supply slot in an Aruba 6400 switch chassis. ",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "wndModules",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.2.3",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": [
+                          {
+                            "name": "arubaWiredSwitchManagementModuleJL368A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.1",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400 Management Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL363A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.2",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400X 32-port 10GbE SFP/SFP+ with MACsec Advanced Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL365A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.3",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400X 8-port 40GbE QSFP+ Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL366A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.4",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400X 6-port 40GbE/100GbE QSFP28 Advanced Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFabricModuleJL367A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.5",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400X 7.2Tbps Fabric Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanModuleJL370A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.6",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400 Fan for X731 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL372A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.7",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X382 54VDC 2700W AC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchJL369AFanTray",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.8",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X731 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL479A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.9",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8320 48p 10G SFP/SFP+ and 6p 40G QSFP+ Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL480A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.10",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8320 400W AC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchJL481AFanTray",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.11",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8320 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchRearDisplayModule8400",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.12",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400 Rear Display Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch1GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.13",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 1Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch10GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.14",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 10Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch25GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.15",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 25Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch40GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.16",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 40Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch100GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.17",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 100Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchSmartRatePort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.18",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a Smart Rate multi-gigabit port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL579A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.19",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8320 32p 40GbE QSFP+ Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL581A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.20",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8320 48p 1G/10GBASE-T and 6p 40G QSFP+ Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL635A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.21",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-48Y8C Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL624A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.22",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-48Y8C FB Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL625A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.23",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-48Y8C BF Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL636A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.24",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-32C Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL626A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.25",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-32C FB Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL627A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.26",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-32C BF Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL632A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.27",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325 650W 100-240V FB AC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL633A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.28",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325 650W 100-240V BF AC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL628A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.29",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-48Y8C F2B Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL629A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.30",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-48Y8C B2F Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL630A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.31",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-32C F2B Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL631A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.32",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8325-32C B2F Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL658A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.33",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 24SFP+ 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL659A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.34",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 48SR5 CL6 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL660A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.35",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 24SR5 CL6 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL661A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.36",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 48G CL4 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL662A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.37",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 24G CL4 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL663A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.38",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 48G 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL664A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.39",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 24G 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL665A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.40",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300F 48G CL4 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL666A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.41",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300F 24G CL4 PoE 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL667A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.42",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300F 48G 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL668A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.43",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300F 24G 4SFP56 Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL669A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.44",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300 Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL085A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.45",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X371 12VDC 250W100-240VAC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL086A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.46",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X372 54VDC 680W 100-240VAC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL087A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.47",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X372 54VDC 1050W 110-240VAC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL670A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.48",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X372 54VDC 1600W 110-240VAC Power Supply. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL687A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.350",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 8400X-32Y 32p 1/10/25G SFP/SFP+/SFP28 Module. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitch50GbMaxPort",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.50",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for a 50Gb maximum speed port.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X31A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.51",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 Management Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X32A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.52",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 Fan Tray.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X33A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.53",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 C16 Inlet Adapter.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X34A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.54",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 C20 Inlet Adapter.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X35A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.55",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 1800W Power Supply with C16 Inlet Adapter.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X36A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.56",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 3000W Power Supply with C20 Inlet Adapter.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X37A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.57",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 4-post Rack Mount Kit.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X38A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.58",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 4 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X39A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.59",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 4 and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X40A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.60",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 6 and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X41A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.61",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port HPE Smart Rate PoE Class 6 and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X42A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.62",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 24-port HPE Smart Rate and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X43A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.63",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 24-port SFP+ and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X44A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.64",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 10/25GbE SFP28 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X45A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.65",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 12-Port 40/100GbE QSFP28 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL762A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.70",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M 48G 4SFP56 Pwr2Prt Advanced Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchFanTrayJL761A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.71",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6300M Pwr2Prt Fan Tray. ",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchPowerSupplyUnitJL760A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.72",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba X371 12VDC 250W 100-240VAC Power-to-Ports Power Supply.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL724A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.90",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6200F 24G 4SFP+ Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL725A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.91",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6200F 24G CL4 4SFP+370W Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL726A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.92",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6200F 48G 4SFP+ Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL727A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.93",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6200F 48G CL4 4SFP+370W Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchModuleJL728A",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.94",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for Aruba 6200F 48G CL4 4SFP+740W Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X38B",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.103",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 4 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X39B",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.104",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 4 and 4-port SFP56 Module.",
+                            "children": []
+                          },
+                          {
+                            "name": "arubaWiredSwitchR0X40B",
+                            "oid": "1.3.6.1.4.1.47196.4.1.1.2.3.105",
+                            "class": "objectidentity",
+                            "description": "The authoritative identifier for the Aruba 6400 48-port 1GbE PoE Class 6 and 4-port SFP56 Module.",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wndFeatures",
+                    "oid": "1.3.6.1.4.1.47196.4.1.1.3",
+                    "class": "objectidentity",
+                    "description": "",
+                    "children": [
+                      {
+                        "name": "arubaWiredLoopProtectMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.1",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredMclagMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.2",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredMgmdSnoopingMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.3",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredMgmdRmonTrapMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.4",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredRpvstMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.5",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredMvrpMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.6",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredVsxMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.7",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredPoeMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.8",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredLldpMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.9",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredVsfMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.10",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredChassisMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.11",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredCiptMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.12",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      },
+                      {
+                        "name": "arubaWiredMstpMIB",
+                        "oid": "1.3.6.1.4.1.47196.4.1.1.3.13",
+                        "class": "objectidentity",
+                        "description": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
-         },
-         {
-            "filename":"ARCHIVO4",
-            "modulename":"MODULO4",
-            "id":"54389",
-            "oids":6,
-            "children":[
-               {
-                  "filename":"ARCHIVO5",
-                  "modulename":"MODULO5",
-                  "id":"54389",
-                  "oids":24,
-                  "children":null
-               }
-            ]
-         }
-      ]
-   }
+          }
+        ]
+      }
+    ]
+  },
+  "ignored_objects": [
+    {
+      "class": "imports",
+      "SNMPv2-CONF": ["NOTIFICATION-GROUP", "MODULE-COMPLIANCE"],
+      "SNMPv2-SMI": [
+        "OBJECT-IDENTITY",
+        "Counter64",
+        "MibIdentifier",
+        "TimeTicks",
+        "enterprises",
+        "iso",
+        "NOTIFICATION-TYPE",
+        "Counter32",
+        "IpAddress",
+        "Bits",
+        "OBJECT-TYPE",
+        "Integer32",
+        "Unsigned32",
+        "Gauge32",
+        "MODULE-IDENTITY"
+      ],
+      "SNMPv2-TC": ["TEXTUAL-CONVENTION", "DisplayString"]
+    },
+    {
+      "comments": [
+        "ASN.1 source file://.ARUBAWIRED-NETWORKING-OID.mib",
+        "Produced by pysmi-0.3.4 at Sun Jul 30 15:50:31 2023",
+        "On host ? platform ? version ? by user ?",
+        "Using Python version 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]"
+      ],
+      "module": "ARUBAWIRED-NETWORKING-OID"
+    }
+  ]
 }
