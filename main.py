@@ -51,9 +51,8 @@ def search_oid(term):
     return jsonify(json.load(open(Path("mockups", "search.json"))))
 
 
-@app.route('/mib/download/<mibid>', methods=['GET'])
-def download_pdf(mibid):
-    print(mibid)
+@app.route('/mib/download/', methods=['GET'])
+def download_pdf():
     return send_from_directory(Path("mockups"), "example.pdf")
 
 
