@@ -90,32 +90,41 @@ def flatten_json(data, prefix=''):
         items[prefix] = [data]
     return items
 
-        
-def create_pdf_table(data, title):
+def create_pdf_table(data, title, min_table_width = 200, max_table_width = 1000):
     
     elements = []
 
     # Add title to the PDF
     title_style = getSampleStyleSheet()["Title"]
     # Change the text color to red
-    title_style.textColor = colors.red
+    title_style.textColor = '#3b82f6'
     title_text = Paragraph(title, title_style)
     elements.append(title_text)
 
-    # Create the table
-    table = Table(data)
+    available_width = max(min_table_width, min(max_table_width, max_table_width / len(data[0])))
+
+    # Create the table with adjusted column widths
+    table = Table(data, colWidths=[available_width / len(data[0])] * len(data[0]))
+    
+
+  
+    
     style = TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+        ('BACKGROUND', (0, 0), (-1, 0), '#3b82f6'),
+        ('TEXTCOLOR', (0, 0), (-1, 0), '#ffffff'),
         ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('WORDWRAP', (0, 0), (-1, -1), 'TRUE'), 
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
         ('FONTSIZE', (0, 0), (-1, 0), 10),
         ('BOTTOMPADDING', (0, 0), (-1, 0), 0),
+        ('VALIGN', (0, 0), (-1, -1), 'TOP'),
         ('BACKGROUND', (0, 1), (-1, -1), colors.white),
-        ('GRID', (0, 0), (-1, -1), 1, colors.black),
+        ('GRID', (0, 0), (-1, -1), 1, '#C8C8C8'),
         ('FONTSIZE', (0, 1), (-1, -1), 8),
     ])
     table.setStyle(style)
+
+    
     elements.append(table)
     return elements
     

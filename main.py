@@ -31,6 +31,7 @@ def upload_mib():
         file = request.files['file']
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], "mibs", filename))
+        return  jsonify(json.load(open(Path("mockups", "upload_mib.json"))))
 
     return '''
         <!doctype html>
