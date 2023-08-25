@@ -90,7 +90,7 @@ def flatten_json(data, prefix=''):
         items[prefix] = [data]
     return items
 
-def create_pdf_table(data, title, min_table_width = 200, max_table_width = 1000):
+def create_pdf_table(data, title, min_table_width = 200, max_table_width = 1000, max_text_length=50):
     
     elements = []
 
@@ -123,6 +123,8 @@ def create_pdf_table(data, title, min_table_width = 200, max_table_width = 1000)
         ('FONTSIZE', (0, 1), (-1, -1), 8),
     ])
     table.setStyle(style)
+    # Loop through the table data and modify text that exceeds max_text_length
+ 
 
     
     elements.append(table)
