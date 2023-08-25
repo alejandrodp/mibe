@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify, flash, redirect, send_from_directory
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 
-UPLOAD_FOLDER = '.'
+UPLOAD_FOLDER = 'uploads'
 
 app = Flask(__name__)
 CORS(app)
@@ -30,8 +30,8 @@ def upload_mib():
             return redirect(request.url)
         file = request.files['file']
         filename = secure_filename(file.filename)
-        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-        return jsonify(json.load(open(Path("mockups", "upload_mib.json"))))
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], "mibs", filename))
+
     return '''
         <!doctype html>
         <title>Upload new File</title>
